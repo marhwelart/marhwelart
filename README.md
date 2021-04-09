@@ -1,2 +1,2 @@
-# mhwelander.github.io
-Personal website for marhwellion.com
+# mhwelander.github.io/marhwel
+Personal website for marhwel.art

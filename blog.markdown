@@ -1,8 +1,7 @@
 ---
 layout: blog
-title: "Technical blog"
+title: "Art blog"
 permalink: /blog/
 ---
 
-More @ [mhwelander.net](http://mhwelander.net)
- 
+* Copenhagen art resources

@@ -14,7 +14,7 @@ html {
 body {
   margin: 0;
   font-family: var(--theme-font);
-  background-color: #fff;}
+  background-color: #e1edeb;}
 
 h1,
 h2,
@@ -26,12 +26,12 @@ h3 {
 }
 
 h1 {
-  font-size: 3.5em;
-  padding: 0.5em 0;
+  font-size: 4.5em;
+  padding: 0 0 0.5em 0;
   margin: 0;
-  color: yellow;
+  color: #a43;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  text-shadow: -3px -3px #02a2fe, -3px -3px #02a2fe, 2px 2px #02a2fe;
+  text-shadow: -3px -3px #fff, -3px -3px #fff, 2px 2px #fff;
   }
 
   h2 {
@@ -40,14 +40,14 @@ h1 {
 
 h3 {
   padding: 0.2em;
-  color: #02a2fe;
-  border-bottom: 2px dashed;
+  color: #89a8c6;
+  border-bottom: 1px dashed;
   font-size: 1em;
 }
 
 blockquote {
   padding: 0 1.5em;
-  border: 2px dashed deeppink;
+  border: 2px dashed #9db6b5;
 }
   
 .container strong {
@@ -81,7 +81,7 @@ a.noline {
 }
 
 a:hover {
-  background: deeppink;
+  background: #9db6b5;
   color: white;
   border-bottom: 0;
 }
@@ -106,7 +106,7 @@ ol li:before {
   counter-increment: li;
   height: 25px;
   width: 25px;
-  background: deeppink;
+  background: #a0976c;
   color: white;
   border-radius: 50%;
   text-align: center;
@@ -136,7 +136,12 @@ ul li {
 ul li:before {
   content: "♥            ";
   margin-right: 5px;
-  color: deeppink;
+  color: #9db6b5;
+  font-size: 20px;
+}
+
+.header ul li:first-child:before {
+  color: #a43
 }
 
 a {
@@ -159,22 +164,19 @@ a {
 
 .wrapper {
   margin: 0 auto;
-  background: rgba(255, 255, 255, 0.5);
   /* border-left: 20px solid #019286; */
   padding: 20px 0;
-  background: #fff;
   
 }
 
 .headerWrapper {
-  border-bottom: 1px solid black;
-  padding: 2em;
+  padding: 2em 2em 0;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
-  max-width: 60%;
+  max-width: 46%;
   margin: 0 auto;
 }
 
@@ -186,6 +188,10 @@ a {
 
 .header nav ul li {
   padding: 0 1em;
+}
+
+.header nav ul li:first-child {
+  padding-left: 0;
 }
 
 .header nav ul li a {

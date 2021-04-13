@@ -139,14 +139,14 @@ ul li:before {
   margin-right: 5px;
   color: #9db6b5;
   font-size: 20px;
-  height: 10px;
-  width: 10px;
+  height: 50%;
+  width: 50%;
   background: url(../img/heart.svg) left center no-repeat;
   background-size: contain;
 }
 
 .header ul li:first-child:before {
-  color: #a43
+  background-image: url(../img/heart-red.svg)
 }
 
 a {

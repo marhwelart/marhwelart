@@ -5,11 +5,11 @@
   --header-font: 'Lucida Console'
 }
 
-/* CSS */
-
-html {
-  font-size: 100%;
+html { 
+  font-size: 120%;
 }
+
+/* CSS */
 
 body {
   margin: 0;
@@ -26,8 +26,8 @@ h3 {
 }
 
 h1 {
-  font-size: 4.5em;
-  padding: 0 0 0.5em 0;
+  font-size: 450%;
+  padding: 0 0 0.2em 0;
   margin: 0;
   color: #a43;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -42,7 +42,7 @@ h3 {
   padding: 0.2em;
   color: #89a8c6;
   border-bottom: 1px dashed;
-  font-size: 1em;
+  font-size: 100%;
 }
 
 blockquote {
@@ -89,23 +89,22 @@ a:hover {
 ol {
   counter-reset: li;
   list-style-type: none;
-  font-size: 14px;
-  line-height: 18px;
+  font-size: 0.8em;
   padding-left: 10px;
 
 }
 
 ol  li {
   position: relative;   
-  padding-left: 40px;
+  padding-left: 3em;
 }
 
 
 ol li:before {
   content: counter(li);
   counter-increment: li;
-  height: 25px;
-  width: 25px;
+  padding: 0 0.5em;  
+  font-size: 1.2em;
   background: #a0976c;
   color: white;
   border-radius: 50%;
@@ -119,7 +118,12 @@ ol li:before {
 ol li,
 ul li,
 p {
-  line-height: 1.8em;
+  line-height: 2em;
+}
+
+ol li,
+ul li {
+  line-height: 2.5em;
 }
 
 ul {
@@ -129,8 +133,7 @@ ul {
 
 ul li {
   list-style-type: none;
-  margin-left: 0;
-  padding-left: 0;
+  padding-left: 0.5em;
 }
 
 ul li:before {
@@ -139,10 +142,11 @@ ul li:before {
   margin-right: 5px;
   color: #9db6b5;
   font-size: 20px;
-  height: 50%;
-  width: 50%;
+  height: 0.8em;
+  width: 0.8em;
   background: url(../img/heart.svg) left center no-repeat;
   background-size: contain;
+  margin-right:0.5em;
 }
 
 .header ul li:first-child:before {
@@ -201,7 +205,7 @@ a {
 
 .header nav ul li a {
   color: #000;
-  font-size: 0.8em;
+  font-size: 0.8rem;
 }
 
 .container {
@@ -296,6 +300,9 @@ a {
   */
 
 @media (min-width: 768px) and (max-width: 1024px) {
+  .wrapper {
+    width: 90%;
+  }
 }
 
 /* 
@@ -320,6 +327,10 @@ a {
   */
 
 @media (min-width: 320px) and (max-width: 480px) {
+
+  .wrapper {
+    width: 90%;
+  }
 }
 
 /* Rainbow dividers */

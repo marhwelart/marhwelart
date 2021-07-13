@@ -130,12 +130,13 @@ ul {
 ul li {
   list-style-type: none;
   margin-left: 0;
-  padding-left: 0;
+  padding-left: 30px;
 }
 
 ul li:before {
   content: "♥            ";
   margin-right: 5px;
+  margin-left: -23px;
   color: #9db6b5;
   font-size: 20px;
 }
@@ -158,6 +159,10 @@ a {
 
 .highlight {
   padding: 5px 10px;
+}
+
+span.date {
+  display: block;
 }
 
 /* GRID */
